@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sarai il mio Valentine?</title>
+
+  <!-- Collega il CSS -->
+  <link rel="stylesheet" href="style.css"/>
+
+  <!-- Audio romantico -->
+  <audio id="music" loop>
+    <source src="https://cdn.pixabay.com/download/audio/2023/03/15/audio_3ff0ab95e2.mp3?filename=romantic-melody-144194.mp3" type="audio/mp3">
+  </audio>
+</head>
+
+<body>
+  <main class="card">
+    <h1>💝 Hey Andrea…</h1>
+    <p class="subtitle">Vuoi essere il mio Valentine? <span class="date">14 Febbraio</span></p>
+
+    <div class="buttons">
+      <button id="yesBtn" class="btn yes">Sì!</button>
+      <button id="noBtn" class="btn no">No…</button>
+    </div>
+
+    <p id="message" class="hidden"></p>
+  </main>
+
+  <canvas id="confetti-canvas"></canvas>
+
+  <!-- Collega JS -->
+  <script src="script.js"></script>
+</body>
+</html>
